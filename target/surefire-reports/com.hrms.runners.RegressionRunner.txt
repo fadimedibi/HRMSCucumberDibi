@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.hrms.runners.RegressionRunner
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 207.702 s <<< FAILURE! - in com.hrms.runners.RegressionRunner
+Add Employee.Add Employee without employee id  Time elapsed: 10.813 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: failed to change window state to maximized, current state is minimized
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-84TE32L', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\murat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f5b050c815f2b27e56e35e02ce918559
+

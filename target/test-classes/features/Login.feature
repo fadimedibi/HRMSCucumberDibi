@@ -7,7 +7,7 @@ Feature: Login
     And I click on login button
     Then I succesfully logged in
 
-  #@regression
+  # @regression
   Scenario: Invalid Login
     Given I open browser and navigated to the HRMS
     When I enter valid username and invalid password
